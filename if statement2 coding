@@ -1,0 +1,21 @@
+package selectionstructures;
+
+public class Ifstatement2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int total = 150;
+		int MAX = 200;
+		int charge ;
+		
+		
+		if(total >MAX);
+		   charge = total * MAX;
+		   
+		   System.out.println("The total is:" + total);
+		   
+			
+		
+	}
+
+}
