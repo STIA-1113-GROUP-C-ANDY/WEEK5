@@ -1,0 +1,29 @@
+package flowofcontrol;
+
+import java.util.Scanner;
+
+public class Sequential { //Saquential is  the statements in program are executed in sequential order.
+
+	//******************************************************************************************************************************
+	//                                Example 1: Calculate and displays the area of rectangle       
+	//******************************************************************************************************************************
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double area, base_parallelogram, height_parallelogram;
+		  
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter the length of Base:");
+		base_parallelogram = scan.nextDouble();
+		
+		System.out.print("Enter the length of Height: ");
+		height_parallelogram = scan.nextDouble();
+		
+		area = base_parallelogram * height_parallelogram; // how to calculate the are.
+		
+		System.out.println("The area of the parallelogram is " + area);
+		
+
+	}
+
+}
