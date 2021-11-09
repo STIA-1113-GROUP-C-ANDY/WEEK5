@@ -1,0 +1,4 @@
+A == A: true
+A == A: true
+A == A: true
+A == A: false
