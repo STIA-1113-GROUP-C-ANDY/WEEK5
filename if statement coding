@@ -1,0 +1,20 @@
+package selectionstructures;
+
+public class ifStatement {
+		//if is a Java reserved word
+		//the condition must be a boolean expression.It must evaluate to either true or false
+		//if the condition is true, the statement is executed.
+		//if it is false, the statement skipped.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int amount =  50;
+		int balance = 60;
+		
+		if(amount <= balance); //<= means that less than or equal to.
+		     balance = balance - amount;
+		     
+		     System.out.println("The balance is:" + balance);
+		     
+		
+	}
+}
