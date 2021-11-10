@@ -1,0 +1,24 @@
+package selectionstructures;
+
+public class blockstatement { //several statements can be grouped together into a block statement delimited  by braces
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int amount=400;
+		int balance=500;
+		
+		if(amount<=balance)
+		{
+			balance=balance-amount;
+			System.out.println("Acc new balance=" +balance);
+		}
+	
+//***********************************************************************************************************************************
+//                                                         COMPARE WITH
+//***********************************************************************************************************************************
+		if(amount<=balance)
+			balance=balance-amount;
+		System.out.println("Acct new balance=" + balance);
+	}
+
+}
