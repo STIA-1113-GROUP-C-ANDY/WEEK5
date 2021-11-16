@@ -1,0 +1,14 @@
+Enter your subject A:
+Math
+Enter your mark A:
+80
+Enter your subject B:
+Science
+Enter your mark B:
+70
+
+Subject A Pass
+Subject B Pass
+Mark for subjectMathis greater than subjectScience
+Your mark is : 75.0
+Your grade is:C
