@@ -1,0 +1,46 @@
+package ifelsestatement;
+ import java.util.Scanner;
+ 
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Masukkan subjek:");
+		String subjekMath = scan.next();
+		
+		System.out.println("Masukkan markah Math:");
+		int markahMath = scan.nextInt();
+		
+		System.out.println("Masukkan subjek:");
+		String subjekSains = scan.next();
+		
+		System.out.println("Masukkan markah Sains:");
+		int markahSains = scan.nextInt();
+
+	
+		if((markahMath>50) && (markahSains>50))
+			System.out.println("Lulus");	
+		
+		else
+			System.out.println("Gagal");
+			
+		if(markahMath>markahSains) {
+			System.out.println("Markah Math lebih baik daripada markahah sains");		
+		}
+		else {
+			System.out.println("Markah Math kurang daripada markah sains");
+		}
+	}
+}
+			
+		
+		
+		
+		
+
+
+
+			
